@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wayne's Content Studio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="description" content="">
+    <meta name="author" content="wkrose7">
+    <meta property="og:title" content="Wayne's Content Studio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.waynescontentstudio.com/">
+    <meta property="og:description" content="The website home page for Wayne's Content Studio.">
+    <meta property="og:image" content="image.png">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Welcome to Wayne's Content Studio</h1>
+            <p>Your one-stop solution for all your content creation.</p>
+        </section>
+        <section class="content">
+            <div class="column">
+                <h2>Column 1</h2>
+                <p>This is the content for the first column. You can add text, images, or any other elements here.</p>
+            </div>
+            <div class="column">
+                <h2>Column 2</h2>
+                <p>This is the content for the second column. You can add text, images, or any other elements here.</p>
+            </div>
+        </section>S
+    </main>
+    <footer>
+        <p>Copyright &copy; <span id="copyright-year"></span> Wayne's Content Studio. All rights reserved.</p>
+     </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+
+        // Get the element where the year will be displayed
+        const yearElement = document.getElementById('copyright-year');
+
+        // Set the text content of the element to the current year
+        yearElement.textContent = currentYear;
+    </script>
+</body>
+</html>

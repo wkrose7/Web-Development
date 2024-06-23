@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services - Wayne's Content Studio</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="services">
+            <h1>Our Services</h1>
+            <ul>
+                <li>
+                    <h2>Web Development and Search Engine Optimization (SEO)</h2>
+                    <p>Description of Service 1.</p>
+                </li>
+                <li>
+                    <h2>Software Development</h2>
+                    <p>Description of Service 2.</p>
+                </li>
+                <li>
+                    <h2>Content Creation</h2>
+                    <p>Description of Service 3.</p>
+                </li>
+             </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; <span id="copyright-year"></span> Wayne's Content Studio. All rights reserved.</p>
+     </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+
+        // Get the element where the year will be displayed
+        const yearElement = document.getElementById('copyright-year');
+
+        // Set the text content of the element to the current year
+        yearElement.textContent = currentYear;
+    </script>
+</body>
+</html>

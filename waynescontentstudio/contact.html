@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact - Wayne's Content Studio</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p style="font-size: 30px; color: red">The Contact Form is temporarily disabled.</p>
+            <p>This is due to I'm not accepting new clients at this time.</p>
+            <p>I also do not keep a mailing list.</p>
+            <p>You are invited, however, to visit my blog via the link above.</p>
+            <p>Thank you for your understanding and for visiting my site.</p>
+
+            <form id="contact-form" action="" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; <span id="copyright-year"></span> Wayne's Content Studio. All rights reserved.</p>
+     </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+
+        // Get the element where the year will be displayed
+        const yearElement = document.getElementById('copyright-year');
+
+        // Set the text content of the element to the current year
+        yearElement.textContent = currentYear;
+    </script>
+</body>
+</html>

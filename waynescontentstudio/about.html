@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About - Wayne's Content Studio</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+            <p>Welcome to Your Website! We are dedicated to providing you with the best tech and gadget solutions. Our team of experts is here to help you navigate the world of technology.</p>
+            <img src="team.jpg" alt="Our Team">
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; <span id="copyright-year"></span> Wayne's Content Studio. All rights reserved.</p>
+     </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+
+        // Get the element where the year will be displayed
+        const yearElement = document.getElementById('copyright-year');
+
+        // Set the text content of the element to the current year
+        yearElement.textContent = currentYear;
+    </script>
+</body>
+</html>
