@@ -114,15 +114,19 @@ footer {
 /* Services section */
 .services {
     padding: 20px;
+    text-align: center;
 }
 
     .services ul {
         list-style: none;
         padding: 0;
         margin: 0;
+        
     }
 
     .services li {
+        text-align: justify;
+        height: 275px;
         background-color: #fff;
         padding: 20px;
         margin: 10px 0;
